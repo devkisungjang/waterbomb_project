@@ -1,5 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import kisung from "./components/kisung.vue";
+// import seungbin from "./components/seungbin.vue";
+// import eun from "./components/eun.vue";
+// import chaeyeon from "./components/chaeyeon.vue";
 </script>
 
 <template>
@@ -11,7 +14,10 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <kisung msg="Vite + Vue" />
+  <!-- <seungbin msg="Vite + Vue" /> -->
+  <!-- <eun msg="Vite + Vue" /> -->
+  <!-- <chaeyeon msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
