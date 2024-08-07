@@ -1,56 +1,61 @@
-# FITLOG -Project V1.0
+# WATERBOMB - Project V1.0
 
-> Vue.js를 활용한 프로그레시브웹앱(PWA) 개발자 양성과정 [14th] 개인 프로젝트
+> Vue.js를 활용한 프로그레시브웹앱(PWA) 개발자 양성과정 [14th] 팀 프로젝트
 
-> 개발기간 : 2024.07 ~ 2024.08
+> 개발기간 : 2024.06 ~ 2024.07
 
 ### 💻 github pages
 
-link : <https://devkisungjang.github.io/fitlog-public/>
+link : <https://devkisungjang.github.io/waterbomb_project/html/main.html>
+
+## 팀원 소개
+
+| 장기성 | 이승빈 | 최 은 | 장채연 |
+| :---: | :---: | :---: | :---: |
+|  [@devkisungjang](https://github.com/devkisungjang) | [@leebin96](https://github.com/leebin96) | [@eunidayo](https://github.com/eunidayo) | [@meoritdol](https://github.com/meoritdol) |
+| 기획, 퍼블리싱(Leader) | PM, 퍼블리싱 | 디자인, 퍼블리싱(Leader) | 디자인, 퍼블리싱 | 디자인, 퍼블리싱 |
 
 ## 💁‍♂️ 프로젝트 소개
 
-### "운동 기록일지" 프로그램
+### "워터밤 티켓구매" 프로그램
 
-- 이 프로젝트는 Vue.js 프레임워크를 사용하여 Visual Studio Code에서 개발한 웹 사이트입니다.
-- 페이지 간의 이동은 Vue Router를 사용하였고, 상태 관리는 Pinia를 이용하여 중앙 저장소에서 데이터를 관리하고 있습니다.
+- 이 프로젝트는 figma를 사용해 디자인하고 html5, css3, javascript,를 사용하여 Visual Studio Code에서 개발한 웹 사이트입니다.
+- figma 링크 : <https://www.figma.com/design/6YEjgQvtdJoA7jVnoi7yXC/%EC%9D%B4%EC%8A%B9%EB%B9%88?node-id=3251-8105>
 
 ### 🛠️ 사용된 기술 스텍
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white"> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white"> <img src="https://img.shields.io/badge/Vuetify-1572B6?style=flat&logo=vuetify&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white">
-
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white">
 ## 🗂️ 프로젝트 구조
 
 ```
-src/
-  ├── assets/        # 이미지, 아이콘 등 정적 파일
-  │   └── favicon.ico            # 파비콘 파일
-  │
-  ├── components/    # 재사용 가능한 컴포넌트
-  │
-  ├── pages/         # 라우터를 통해 이동되는 페이지들
-  │   ├── home.vue               # 원하는 날짜를 선택할 수 있는 화면 (기본값: 오늘)
-  │   ├── exercise_selection.vue # 부위별로 운동 종목을 선택할 수 있는 화면
-  │   ├── record.vue             # 운동 기록, 세트 관리, 일기, 몸무게 및 사진 기록 화면
-  │   ├── complete.vue           # 기록된 내용을 간략하게 보여주는 화면
-  │   ├── map.vue                # 주변 헬스장을 지도에서 확인할 수 있는 화면 (지오로케이션 및 검색 기능 포함)
-  │
-  ├── plugins/       # 플러그인 관련 설정 파일
-  │   └── vuetify.js              # Vuetify 설정 파일
-  │
-  ├── store/         # Pinia를 사용한 상태 관리
-  │
-  ├── router/        # Vue Router 설정
-  │
-  └── App.vue        # 메인 앱 컴포넌트
+waterbomb_project/
+│
+├── html/          # HTML 파일들이 위치한 폴더
+│   ├── main.html               # 워터밤 일정, 출연진 정보, 티켓 구매/확인 버튼이 있는 페이지
+│   ├── login01.html            # 결제하기 버튼 클릭 시 나오는 로그인 페이지
+│   ├── login02.html            # myticket 버튼 클릭 시 나오는 로그인 페이지 (비회원 티켓 조회 버튼 포함)
+│   ├── ticket_selection.html   # 공연 날짜와 지역 선택 및 티켓 수량 선택 페이지
+│   ├── payment.html            # 로그인한 사용자 티켓 결제 페이지
+│   ├── payment_guest.html      # 비회원 사용자 티켓 결제 페이지
+│   ├── payment_success.html    # 결제 완료 페이지
+│   ├── myticket.html           # 구매한 티켓 확인 페이지
+│   ├── myticket_empty.html     # 구매한 티켓이 없을 경우 나오는 페이지
+│   └── mypage.html             # 결제 완료 후 이동되는 마이페이지
+│
+├── css/           # CSS 파일들이 위치한 폴더
+│   └── (스타일 시트 파일들)
+│
+├── image/         # 이미지 파일들이 위치한 폴더
+│   └── (이미지 파일들)
+│
+├── js/            # JavaScript 파일들이 위치한 폴더
+│   └── (스크립트 파일들)
+│
+└── video/         # 비디오 파일들이 위치한 폴더
+    └── (비디오 파일들)
 ```
 
 ## 💻 프로젝트 설치 및 실행
-
-### 요구사항
-
-- Node.js 설치
-- npm 설치
 
 ### 설치 및 실행
 
@@ -58,14 +63,11 @@ src/
 
 `cd your-project`
 
-`git clone https://github.com/devkisungjang/fitlog-project.git`
+`git clone https://github.com/devkisungjang/waterbomb_project/`
 
-2. 종속성 설치
+2. 실행
 
-`npm install`
+`이 프로젝트는 HTML, CSS, JavaScript로 구성되어 있어 특별한 설치 과정 없이 브라우저에서 실행할 수 있습니다.`
 
-3. 개발 서버 실행 및 빌드
 
-`npm run dev`
-
-`npm run build`
+    
