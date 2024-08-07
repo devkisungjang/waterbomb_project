@@ -6,7 +6,7 @@
 
 ### 💻 github pages
 
-link : <https://devkisungjang.github.io/waterbomb_project/html/main.html>
+- link : <https://devkisungjang.github.io/waterbomb_project/html/main.html>
 
 ## 팀원 소개
 
@@ -55,19 +55,26 @@ waterbomb_project/
     └── (비디오 파일들)
 ```
 
+### 💁‍♂️ 맡은 역할
+- 장기성 : main.html, login01.html, login02.html
+- 이승빈 : ticket_selection.html
+- 최 은 : payment_success.html, mypage.html 
+- 장채연 : payment.html, payment_guest.html, myticket.html, myticket_empty.html
+
 ## 💻 프로젝트 설치 및 실행
 
 ### 설치 및 실행
 
 1. 리포지토리 클론
 
-`cd your-project`
-
-`git clone https://github.com/devkisungjang/waterbomb_project/`
+```
+cd your-project
+git clone https://github.com/devkisungjang/waterbomb_project/
+```
 
 2. 실행
 
-`이 프로젝트는 HTML, CSS, JavaScript로 구성되어 있어 특별한 설치 과정 없이 브라우저에서 실행할 수 있습니다.`
+- 이 프로젝트는 HTML, CSS, JavaScript로 구성되어 있어 특별한 설치 과정 없이 브라우저에서 실행할 수 있습니다.
 
 
     
