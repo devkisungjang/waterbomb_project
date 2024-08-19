@@ -28,7 +28,7 @@
 | 장기성 | 이승빈 | 최 은 | 장채연 |
 | :---: | :---: | :---: | :---: |
 |  [@devkisungjang](https://github.com/devkisungjang) | [@leebin96](https://github.com/leebin96) | [@eunidayo](https://github.com/eunidayo) | [@meoritdol](https://github.com/meoritdol) |
-| 기획, 퍼블리싱(Leader) | PM, 퍼블리싱 | 디자인, 퍼블리싱(Leader) | 디자인, 퍼블리싱 | 디자인, 퍼블리싱 |
+| 기획, 퍼블리싱(Leader) | PM, 퍼블리싱 | 디자인, 퍼블리싱 | 디자인, 퍼블리싱 | 디자인, 퍼블리싱 |
 
 ### 🛠️ 사용된 기술 스텍
 
