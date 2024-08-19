@@ -1,26 +1,34 @@
-# WATERBOMB - Project V1.0
+# WATERBOMB - Project
 
-> Vue.js를 활용한 프로그레시브웹앱(PWA) 개발자 양성과정 [14th]에서 진행한 팀 프로젝트
+> 이 프로젝트는 Vue.js를 활용한 프로그레시브웹앱(PWA) 개발자 양성과정 [14th]에서 진행한 팀 프로젝트입니다.
 
 > 개발기간 : 2024.06 ~ 2024.07
 
-### 💻 github pages
+> github pages : <https://devkisungjang.github.io/waterbomb_project/html/main.html>
 
-- link : <https://devkisungjang.github.io/waterbomb_project/html/main.html>
+## 💁‍♂️ 프로젝트 소개
 
-## 팀원 소개
+**워터밤 티켓구매 프로그램**은 대중에게 인기 있는 워터밤 콘서트의 티켓 구매를 간편하게 할 수 있도록 설계된 웹 애플리케이션입니다. 사용자 친화적인 인터페이스를 통해 쉽게 콘서트 일정과 출연진 정보를 확인하고, 티켓 구매를 진행할 수 있습니다.
+
+## 🎯 프로젝트 목표
+
+이 프로젝트는 대규모 콘서트와 같은 이벤트에서 티켓 구매 과정을 간소화하여 사용자 경험을 향상시키는 것을 목표로 합니다. 특히, 로그인한 사용자와 비회원 모두가 쉽게 티켓을 구매하고 관리할 수 있도록 다양한 기능을 제공하며, 안전하고 직관적인 결제 시스템을 구현했습니다.
+
+## 📈 주요 기능
+- 콘서트 일정 및 출연진 정보 제공: 사용자는 간편하게 콘서트 일정과 출연진 정보를 확인할 수 있습니다.
+- 티켓 구매 프로세스: 사용자들은 원하는 날짜와 지역을 선택하고, 손쉽게 티켓을 구매할 수 있습니다.
+- 로그인 및 비회원 티켓 조회: 로그인한 사용자는 물론 비회원도 자신의 티켓을 조회하고 결제할 수 있습니다.
+- 결제 시스템: 사용자는 로그인 여부와 상관없이 간편하게 티켓 결제를 진행할 수 있으며, 결제가 완료되면 마이티켓페이지에서 티켓 정보를 확인할 수 있습니다.
+
+## 🔗디자인 및 기획
+- [Figma 링크](https://www.figma.com/design/pNvtYRE4FaMr6btL9YmxRp/%EC%9E%A5%EA%B8%B0%EC%84%B1?node-id=2052-1421)
+
+## 💁‍♂ 팀원 소개
 
 | 장기성 | 이승빈 | 최 은 | 장채연 |
 | :---: | :---: | :---: | :---: |
 |  [@devkisungjang](https://github.com/devkisungjang) | [@leebin96](https://github.com/leebin96) | [@eunidayo](https://github.com/eunidayo) | [@meoritdol](https://github.com/meoritdol) |
 | 기획, 퍼블리싱(Leader) | PM, 퍼블리싱 | 디자인, 퍼블리싱(Leader) | 디자인, 퍼블리싱 | 디자인, 퍼블리싱 |
-
-## 💁‍♂️ 프로젝트 소개
-
-### "워터밤 티켓구매" 프로그램
-
-- 이 프로젝트는 figma를 사용해 디자인하고 html5, css3, javascript,를 사용하여 Visual Studio Code에서 개발한 웹 사이트입니다.
-- figma 링크 : <https://www.figma.com/design/6YEjgQvtdJoA7jVnoi7yXC/%EC%9D%B4%EC%8A%B9%EB%B9%88?node-id=3251-8105>
 
 ### 🛠️ 사용된 기술 스텍
 
